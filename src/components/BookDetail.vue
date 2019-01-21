@@ -13,6 +13,9 @@
                 <h4 v-for="author in book.authors" :key="author">
                     By: {{author}}
                 </h4>
+                <p>
+                    <a :href="book.infoLink">Google Books</a>
+                </p>
             </div>
         </div>
     </transition>
